@@ -1,0 +1,124 @@
+/* CSS resets */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* --------------------------------------------------- */
+
+body {
+  font-family: "Open Sans", sans-serif;
+  padding: 0.4rem;
+  background-color: #f4f4f4;
+}
+
+/* Header Component*/
+header {
+  height: 470px;
+  color: #505050;
+  text-align: center;
+}
+
+.header-container {
+  text-align: center;
+}
+
+.header-container h1 {
+  font-size: 30px;
+  letter-spacing: 4px;
+  margin: 0;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.main-nav li {
+  margin: 3px;
+  font-size: 1.3rem;
+  list-style: none;
+  background-color: white;
+}
+
+.profile-image {
+  background-size: cover;
+  max-width: 100%;
+  width: 200px;
+  height: auto;
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+/* --------------------------------------------------- */
+
+/* Main Component */
+.main-container {
+  border: 3px solid tomato;
+  background-color: white;
+  height: auto;
+  text-align: center;
+  margin-top: 50px;
+  padding: 50px 5px 30px 0px;
+}
+
+.main-container h3 {
+  margin: 0 0 13px 0;
+}
+
+.main-container img {
+  background-size: cover;
+  max-width: 100%;
+  width: 500px;
+  margin: 22px 0 22px 0;
+}
+
+/* --------------------------------------------------- */
+/* Footer Component */
+footer {
+  border: 3px solid red;
+  text-align: center;
+  padding: 30px 5px 20px 5px;
+}
+
+footer h3 {
+  padding: 5px 0 30px 0;
+}
+
+.phone {
+  padding: 20px 0 5px 0;
+}
+
+.email {
+  padding: 15px 0 30px 0;
+}
+
+.footer-nav {
+  border: 3px solid tomato;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 20px 3px 0 3px;
+}
+
+.footer-nav li {
+  list-style: none;
+  display: inline-block;
+}
+
+.footer-nav .footer-logo {
+  padding-right: 20px;
+}
+
+/* --------------------------------------------------- */
+
+@media (min-width: 768px) {
+  .main-nav li {
+    display: inline-block;
+    padding: 20px 10px;
+    margin: 10px 10px;
+  }
+
+  /* ---- Float clearfix ---- */
+  .clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
+}
