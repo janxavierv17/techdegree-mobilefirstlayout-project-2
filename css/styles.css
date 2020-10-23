@@ -22,6 +22,7 @@ header {
 
 .header-container {
   text-align: center;
+  padding-top: 55px;
 }
 
 .header-container h1 {
@@ -51,12 +52,11 @@ header {
 
 /* Main Component */
 .main-container {
-  border: 3px solid tomato;
   background-color: white;
   height: auto;
   text-align: center;
   margin-top: 50px;
-  padding: 50px 5px 30px 0px;
+  padding: 50px 10px 30px 10px;
 }
 
 .main-container h3 {
@@ -73,7 +73,6 @@ header {
 /* --------------------------------------------------- */
 /* Footer Component */
 footer {
-  border: 3px solid red;
   text-align: center;
   padding: 30px 5px 20px 5px;
 }
@@ -91,10 +90,10 @@ footer h3 {
 }
 
 .footer-nav {
-  border: 3px solid tomato;
+  width: 100%;
   text-transform: uppercase;
   font-weight: bold;
-  padding: 20px 3px 0 3px;
+  padding: 25px 0px 0px 0px;
 }
 
 .footer-nav li {
@@ -106,13 +105,88 @@ footer h3 {
   padding-right: 20px;
 }
 
+.display {
+  display: none;
+}
+
 /* --------------------------------------------------- */
 
 @media (min-width: 768px) {
+  /* ---- Header ---- */
   .main-nav li {
     display: inline-block;
     padding: 20px 10px;
     margin: 10px 10px;
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+
+  .hero-container {
+    height: 200px;
+    width: 100%;
+    padding: 0px 15px 0px 15px;
+  }
+
+  .profile-image {
+    float: right;
+    width: 45%;
+  }
+  .about {
+    font-size: 1.4em;
+    float: left;
+    width: 55%;
+    height: 100px;
+    text-align: left;
+    margin: 35px 0 0 0;
+  }
+
+  /* ---- Main Content ---- */
+  .main-container {
+    width: 100%;
+  }
+
+  .row {
+    text-align: center;
+    width: 95%;
+    padding: 0 10px 0 10px;
+    margin: 0 auto;
+  }
+
+  .col-1 {
+    float: left;
+    width: 50%;
+    padding-right: 10px;
+  }
+
+  .col-2 {
+    float: right;
+    width: 50%;
+  }
+
+  .details {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  /* ---- footer Content ---- */
+  footer {
+    width: 100%;
+  }
+  footer p {
+    margin: 0 auto;
+    width: 50%;
+  }
+
+  .footer-logo {
+    margin-right: 280px;
+  }
+  .start {
+    display: none;
+  }
+  .display {
+    display: inline-block;
+    margin-left: 30px;
   }
 
   /* ---- Float clearfix ---- */
