@@ -13,15 +13,15 @@
 </head>
 <body>
     <header>
-        <div class="header-container ">
-            <h1 >Jan Xavier Virgen</h1>
-            <ul class="main-nav">
-                <li>Home</li>
-                <li>Portfolio</li>
-                <li>Contact</li>
-            </ul>
-        </div>
-
+        <div class="header-container clearfix ">
+            <div class="nav-container ">
+                <h1 class="header-logo ">Jan Xavier Virgen</h1>
+                <ul class="main-nav ">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
         <div class="hero-container clearfix">
             <img src="images/responsive-layout-profile.png" alt="Profile Image" class="profile-image clearfix"/>
             <p class="about ">
@@ -33,14 +33,15 @@
                 to put all my skills to use!
             </p>
         </div>
+    </div>
     </header>
 
     <main>
-        <div class="main-container ">
+        <div class="main-container">
+            <section id="portfolio">
             <h3>Portfolio</h3>
-
             <div class="portfolio clearfix"> 
-                <div class="col padding">
+                <div class="col ">
                     <img src="images/portfolio-1.png" alt="Portfolio Image 1"/>
                     <h3>Marketing Page</h3>
                     <p class="details">This project shows the 
@@ -58,7 +59,7 @@
                     </p>
                 </div>
 
-                <div class="col padding"> 
+                <div class="col "> 
                     <img src="images/portfolio-3.png" alt="Portfolio Image 3"/>
                     <h3>Travel App</h3>
                     <p class="details">
@@ -70,7 +71,7 @@
 
                 <div class="col"> 
                     <img src="images/portfolio-4.png" alt="Portfolio Image 4"/>
-                    <h3>Map of Favorite Spots col-4</h3>
+                    <h3>Map of Favorite Spots</h3>
                     <p class="details">
                         This project uses mapping APIs to plot point for 
                         my favorite spots in the city for a do-it 
@@ -78,9 +79,9 @@
                     </p>
                 </div>
 
-                <div class="col padding">
+                <div class="col ">
                     <img src="images/portfolio-5.png" alt="Portfolio Image 5"/> 
-                    <h3>Photo Gallery col - 5</h3>
+                    <h3>Photo Gallery</h3>
                     <p class="details">
                         This project shows pictures from a recent trip to 
                         the viewer and allows them to easily navigate 
@@ -89,7 +90,7 @@
                 </div>
 
                 <div class="col"> 
-                    <img src="images/portfolio-6.png">
+                    <img src="images/portfolio-6.png" alt="Portfolio Image 6">
                     <h3>Calculator</h3>
                     <p>
                         Someone can enter in the numbers they want 
@@ -98,10 +99,13 @@
                     </p>
                 </div>
             </div>
+        </section>
         </div>
     </main>
 
+<div class="wrap">
     <footer>
+        <section id="contact">
         <h3>Contact</h3>
         <p>
             If you're interested in chatting or want more 
@@ -118,12 +122,14 @@
 
         <ul class="footer-nav">
             <li class="footer-logo">Jan Xavier Virgen</li>
-            <li><a class="start"href="#">Back to top</a></li>
+            <li><a class="start" href="#">Back to top</a></li>
             <li ><a class="display" href="#">Home</a></li>
-            <li ><a class="display" href="#">Portfolio</a></li>
-            <li ><a class="display" href="#">Contact</a></li>
+            <li ><a class="display" href="#portfolio">Portfolio</a></li>
+            <li ><a class="display" href="#contact">Contact</a></li>
         </ul>
+    </section>
     </footer>
+</div>
 
 </body>
 </html>

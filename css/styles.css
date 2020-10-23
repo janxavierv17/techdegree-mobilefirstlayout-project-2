@@ -13,6 +13,11 @@ body {
   background-color: #f4f4f4;
 }
 
+a {
+  text-decoration: none;
+  color: #505050;
+}
+
 /* Header Component*/
 header {
   height: 470px;
@@ -22,10 +27,14 @@ header {
 
 .header-container {
   text-align: center;
-  padding-top: 55px;
+  padding: 55px 10px 55px 10px;
 }
 
-.header-container h1 {
+.nav-container {
+  padding: 0 5px 0 5px;
+}
+
+.header-logo {
   font-size: 30px;
   letter-spacing: 4px;
   margin: 0;
@@ -130,14 +139,16 @@ footer h3 {
   display: none;
 }
 
+.wrap {
+  min-height: 100%;
+}
+
 /* --------------------------------------------------- */
 
 @media (min-width: 768px) {
   /* ---- Header ---- */
   .main-nav li {
     display: inline-block;
-    padding: 20px 10px;
-    margin: 10px 10px;
     background-color: #f4f4f4;
     font-weight: bold;
   }
@@ -152,7 +163,7 @@ footer h3 {
     font-size: 1.3em;
     float: left;
     width: 55%;
-    height: 100px;
+    height: 100%;
     text-align: left;
     margin: 35px 0 0 0;
   }
@@ -182,35 +193,8 @@ footer h3 {
     padding: 0 10px 0 10px;
     margin: 0 auto;
   }
-  .padding {
-    padding-right: 10px;
-  }
-  .col-1 {
+  .col {
     float: left;
-    width: 50%;
-  }
-
-  .col-2 {
-    float: right;
-    width: 50%;
-  }
-  .col-3 {
-    float: left;
-    width: 50%;
-  }
-
-  .col-4 {
-    float: right;
-    width: 50%;
-  }
-
-  .col-5 {
-    float: left;
-    width: 50%;
-  }
-
-  .col-6 {
-    float: right;
     width: 50%;
   }
 
@@ -224,6 +208,7 @@ footer h3 {
   }
 
   .footer-logo {
+    color: #505050;
     margin-right: 280px;
   }
   .start {
@@ -243,6 +228,46 @@ footer h3 {
 
 /* --------------------------------------------------- */
 @media (min-width: 1024px) {
+  /* ---- Header Content ---- */
+  .header-container {
+    height: 500px;
+  }
+
+  .hero-container {
+    max-height: 400px;
+  }
+
+  .profile-image {
+    height: 230px;
+    width: 380px;
+  }
+
+  .hero-container {
+    padding: 50px 20px 50px 20px;
+  }
+
+  .main-nav {
+    width: 50%;
+    text-align: right;
+    float: right;
+    padding-right: 20px;
+  }
+
+  .main-nav li {
+    padding-left: 50px;
+  }
+
+  .header-logo {
+    float: left;
+    padding-left: 25px;
+    text-align: left;
+    width: 50%;
+  }
+
+  .hero-container {
+    width: 100%;
+  }
+
   .about {
     font-size: 1.8em;
   }
@@ -250,36 +275,19 @@ footer h3 {
   .footer-logo {
     margin-right: 540px;
   }
-  .portfolio {
-    border: 3px solid red;
-    width: 100%;
+
+  .main-container img {
+    padding-left: 10px;
+    padding-right: 10px;
   }
+
   .col {
     float: left;
-    width: 33.33%;
-  }
-  /* 
-  .col-2 {
-    float: left;
-    width: 33.33%;
-  }
-  .col-3 {
-    float: right;
+    padding-bottom: 25px;
     width: 33.33%;
   }
 
-  .col-4 {
-    float: left;
-    width: 33.33%;
+  .about {
+    height: 100%;
   }
-
-  .col-5 {
-    float: right;
-    width: 33.33%;
-  }
-
-  .col-6 {
-    float: right;
-    width: 32%;
-  } */
 }
