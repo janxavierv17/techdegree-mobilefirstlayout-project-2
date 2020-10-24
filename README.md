@@ -15,7 +15,7 @@ Exceeds Expectations N/A <br/>
 Design and Layout:<br/>
 ✅ Matches layout of mockups. General spacing and arrangement of the elements mataches the design of the mockups for: Mobile, Tablet, Desktop. <br/>
 ✅ A Google Font is being used for text.<br/>
-Exceeds Expectations: <br/>1.A new background color for main sections of the site. <br/> 2. One additional google font has been added general font is "Roboto". Heading fonts is "Raleway. <br/> 3. The color of at least one piece of text has been changed <br/>.
+Exceeds Expectations: <br/>1.A new background color for main sections of the site. <br/> 2. One additional google font has been added general font is "Roboto". Heading fonts is "Raleway. <br/> 3. The color of at least one piece of text has been changed. <br/>
 
 Navigations and Sections:<br/>
 ✅ The navigation menu items have working links to different sections taht use ID's to link to relevant anchor tags. <br/>
