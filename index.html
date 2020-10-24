@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <!-- Viewport meta tag -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <!-- Font-awesome for social media icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <!-- Google Fonts Pair -->
-    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@900&family=Roboto&display=swap" rel="stylesheet">    
     <!-- User Stylesheet  -->
     <link rel="stylesheet" href="css/styles.css">
     <title>Mobile first layout</title>
@@ -14,14 +15,14 @@
 <body>
     <header>
         <div class="header-container clearfix ">
-            <div class="nav-container ">
+            <nav class="nav-container ">
                 <h1 class="header-logo ">Jan Xavier Virgen</h1>
                 <ul class="main-nav ">
                     <li><a href="#">Home</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
-            </div>
+            </nav>
         <div class="hero-container clearfix">
             <img src="images/responsive-layout-profile.png" alt="Profile Image" class="profile-image clearfix"/>
             <p class="about ">
@@ -39,7 +40,8 @@
     <main>
         <div class="main-container">
             <section id="portfolio">
-            <h3>Portfolio</h3>
+            <h3>Portfolio</h3>        
+       
             <div class="portfolio clearfix"> 
                 <div class="col ">
                     <img src="images/portfolio-1.png" alt="Portfolio Image 1"/>
@@ -99,6 +101,23 @@
                     </p>
                 </div>
             </div>
+
+            <div class="network">
+            <h1>Social Media</h1>
+            <div class="social"> 
+                <a href="#" class="btn">
+                    <i class="fab fa-twitter">
+                    </i>
+                </a>
+            </div>
+
+            <div class="social"> 
+                <a href="#" class="btn">
+                    <i class="fab fa-linkedin">
+                    </i>
+                </a>
+            </div>
+        </div>
         </section>
         </div>
     </main>
