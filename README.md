@@ -7,7 +7,7 @@ Create folder structure: <br/>
 ✅ Project CSS file is contained in a folder named "css" <br/>
 Exceeds Expectations N/A <br/>
 
-Mobile-first design approach:
+Mobile-first design approach:<br/>
 ✅ The HTML file includes the viewport meta tag in the head of the document. <br/>
 ✅ A mobile-first approach is utilized using min-width (768px & 1024px) properties for media queries. </br>
 Exceeds Expectations N/A <br/>
@@ -21,6 +21,6 @@ Navigations and Sections:<br/>
 ✅ The navigation menu items have working links to different sections taht use ID's to link to relevant anchor tags. <br/>
 Exceeds Expectations: <br/>1. Semantic HTML tags have been used. <br/> 2. Additional section has been added to the page. Which is the Social Media section. <br/>
 
-Valid Code:
+Valid Code:<br/>
 ✅ HTML and CSS code passes validation.<br/>
 Exceeds Expectations: N/A
