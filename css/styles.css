@@ -42,16 +42,15 @@ header {
 .header-logo {
   font-size: 30px;
   letter-spacing: 4px;
-  margin: 0;
   text-transform: uppercase;
-  margin-bottom: 1rem;
 }
 
 .main-nav li {
-  margin: 3px;
+  text-transform: uppercase;
   font-size: 1.3rem;
   list-style: none;
   background-color: white;
+  margin-top: 5px;
 }
 
 /* Social content */
@@ -110,7 +109,6 @@ header {
 }
 
 /* --------------------------------------------------- */
-
 /* Main Component */
 .main-container {
   color: white;
@@ -158,10 +156,11 @@ i {
 
 /* --------------------------------------------------- */
 /* Footer Component */
+
 footer {
   text-align: center;
   margin-top: 50px;
-  padding: 30px 5px 50px 5px;
+  padding: 30px 0px 0px 0px;
 }
 
 footer h3 {
@@ -177,7 +176,6 @@ footer h3 {
 }
 
 .footer-nav {
-  width: 100%;
   text-transform: uppercase;
   font-weight: bold;
   padding: 25px 0px 0px 0px;
@@ -204,17 +202,27 @@ footer h3 {
   min-height: 100%;
 }
 
+.footer-logo {
+  float: left;
+  padding: 25px 0 25px 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.footer-nav {
+  float: right;
+  height: 50px;
+}
+
 /* --------------------------------------------------- */
 
 @media (min-width: 768px) {
-  body {
-    padding: 20px;
-  }
   /* ---- Header ---- */
   .main-nav li {
     display: inline-block;
     background-color: #e8eff5;
     font-weight: bold;
+    margin: 10px;
   }
 
   .profile-image {
@@ -259,7 +267,7 @@ footer h3 {
   .portfolio {
     text-align: center;
     width: 100%;
-    padding: 0 10px 0 10px;
+    padding-left: 5px;
     margin: 0 auto;
   }
   .col {
@@ -279,7 +287,6 @@ footer h3 {
 
   .footer-logo {
     color: #505050;
-    margin-right: 280px;
   }
   .start {
     display: none;
@@ -299,8 +306,9 @@ footer h3 {
 /* --------------------------------------------------- */
 @media (min-width: 1024px) {
   body {
+    margin: 0 auto;
     max-width: 1900px;
-    padding: 50px;
+    padding: 25px;
   }
   /* ---- Header Content ---- */
   .header-container {
@@ -321,21 +329,19 @@ footer h3 {
   }
 
   .main-nav {
-    width: 50%;
     text-align: right;
     float: right;
     padding-right: 20px;
   }
 
   .main-nav li {
-    padding-left: 50px;
+    padding-left: 20px;
   }
 
   .header-logo {
     float: left;
     padding-left: 25px;
     text-align: left;
-    width: 50%;
   }
 
   .hero-container {
@@ -344,10 +350,6 @@ footer h3 {
 
   .about {
     font-size: 1.8em;
-  }
-
-  .footer-logo {
-    margin-right: 540px;
   }
 
   /* ---- Main Content ---- */
