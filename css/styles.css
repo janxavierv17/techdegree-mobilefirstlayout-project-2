@@ -331,17 +331,14 @@ footer h3 {
   .main-nav {
     text-align: right;
     float: right;
-    padding-right: 20px;
-  }
-
-  .main-nav li {
-    padding-left: 20px;
   }
 
   .header-logo {
     float: left;
     padding-left: 25px;
     text-align: left;
+    padding-top: 7px;
+    height: 44px;
   }
 
   .hero-container {
